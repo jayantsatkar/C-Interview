@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Interviews/.vs/Interviews
+/Interviews/bin/Debug/net8.0
+/Interviews/obj
