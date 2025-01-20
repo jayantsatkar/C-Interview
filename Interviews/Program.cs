@@ -184,7 +184,7 @@ class VehicleClient
 /// </summary>
 class Program
 {
-    static void Main(string[] args)
+    static void Main1(string[] args) // Rename Main method to run other methods
     {
 
               
