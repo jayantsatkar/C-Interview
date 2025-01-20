@@ -9,7 +9,7 @@ namespace Interviews
     public class LINQ
     {
 
-        public static void Main()
+        public static void Main1()
         {
             // Data source Or Database 
             string[] records = {"Rajesh", "Geeks", "Utkarsh"
