@@ -58,7 +58,7 @@ namespace Interviews
 
         public class Test
         {
-            public static void Main1()
+            public static void Main()
             {
                 Student s = new Student();
                 s.Id = 1;
@@ -66,7 +66,33 @@ namespace Interviews
 
                 Person person = new Person();
                 //person.
+
+                testInterface1 obj1 = new Abc();
+                testInterface2 obj2 = new Abc();
+                obj1.Show();
+                obj2.Show();
+
+               
                 Console.ReadLine();
+            }
+        }
+        interface testInterface1
+        {
+            void Show();
+        }
+        interface testInterface2
+        {
+            void Show();
+        }
+        class Abc : testInterface1,    testInterface2
+        {
+            void testInterface1.Show()
+            {
+                Console.WriteLine("For testInterface1 !!");
+            }
+            void testInterface2.Show()
+            {
+                Console.WriteLine("For testInterface2 !!");
             }
         }
     }

@@ -62,7 +62,7 @@ namespace Interviews
 
     class Abstract
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
 
             // creating reference of Shape class
