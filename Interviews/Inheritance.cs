@@ -58,7 +58,7 @@ namespace Interviews
 
         public class Test
         {
-            public static void Main()
+            public static void Main1()
             {
                 Student s = new Student();
                 s.Id = 1;
